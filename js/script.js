@@ -16,8 +16,11 @@ var songLengths= ["5:22", "3:49", "4:18", "3:54"];
 
 
     // BELOW Use forEach Loop to display the data from each of your array's in the correct div
+images_links.forEach(function(array,index){
+        $("#links").append(array[index]);
+    
+});
 
-}
 
 function emptySongInfo(){
     $("#songs").empty();

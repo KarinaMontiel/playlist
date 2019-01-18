@@ -1,6 +1,6 @@
 body{
     background:linear-gradient(pink,whitesmoke);
-    
+    background-size: cover;
 }
 
 h1 {
